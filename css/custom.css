@@ -1,6 +1,12 @@
 /***** 
 COLOR CHEAT SHEET 
+https://coolors.co/61a0af-96c9dc-f06c9b-f9b9b7-f5d491
 
+61a0af- Dark Blue
+96c9dc - Light Blue
+f06c9b -  pink
+f9b9b7 - peach
+f5d491 - yellow
 
 *****/
 
@@ -9,9 +15,19 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
-
+    font-family:"Roboto", sans-serf;
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+    font-family:"Abril Fatface";
 }
+
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead{
+    background: url(../img/hero.jpg);
+}
+/********************/
+/******* COLORS ******/
+/********************/
