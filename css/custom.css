@@ -2,11 +2,11 @@
 COLOR CHEAT SHEET 
 https://coolors.co/61a0af-96c9dc-f06c9b-f9b9b7-f5d491
 
-61a0af- Dark Blue
-96c9dc - Light Blue
-f06c9b -  pink
-f9b9b7 - peach
-f5d491 - yellow
+#61a0af- Dark Blue
+#96c9dc - Light Blue
+#f06c9b -  pink
+#f9b9b7 - peach
+#f5d491 - yellow
 
 *****/
 
@@ -15,12 +15,15 @@ f5d491 - yellow
 /******* FONTS ******/
 /********************/
 body, p {
-    font-family:"Roboto", sans-serf;
+    font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family:"Abril Fatface";
+h1, h2, h3, h4, h5, h6, 
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Abril Fatface", serif;
 }
+
+
 
 /********************/
 /******* HERO ******/
@@ -28,6 +31,269 @@ h1, h2, h3, h4, h5, h6 {
 header.masthead{
     background: url(../img/hero.jpg);
 }
+
+.btn-primary{
+    background-color:#f06c9b;
+    border: 2px solid #e93071;
+    color: #96c9dc;
+}
+
+.btn-primary:hover{
+    background-color:#96c9dc;
+    border: 2px solid #33b0dd;
+    color: #f06c9b;
+}
+
+header.masthead h1, header.masthead .h1 {
+    font-size: 4.5rem;
+}
+
+hr.divider {
+    
+    background-color:#96c9dc;
+    
+}
+
+
 /********************/
-/******* COLORS ******/
+/*******BODY COLORS ******/
 /********************/
+
+hr.divider{
+    color:#61a0af;
+}
+
+a.navbar-brand:{
+    color: #61a0af;
+    text-shadow: 2px 2px 2px white; 
+    font-size: 35px;
+
+} 
+
+header.masthead h1{
+    color:#e93071;
+    text-shadow: 2px 2px 2px white; 
+}
+
+header.masthead p{
+    color: #f5d491;
+    font-weight: 800;
+   font-size: 25px;
+   text-shadow: 2px 2px 2px black; 
+}
+
+header.masthead{
+    padding-top: 200px;
+}
+
+.nav-item{
+    color:#e93071
+    text-shadow: 2px 2px 2px white; 
+}
+
+section.bg-primary{
+    background-color: #96c9dc!important;
+}
+
+
+
+.text-primary{
+    color:#e93071 !important;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #f06c9b;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+        
+    }
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    
+    color: #33b0dd;
+   
+}
+
+.project-name{
+    color:#f5d491;
+    font-family:  "Abril Fatface", serif;
+    font-size: 4rem;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+    font-size:3rem;
+}
+
+.carousel-control-prev, .carousel-control-next {
+ 
+    color: #e93071 !important;
+   
+}
+
+.text-muted {
+     color: #e93071 !important;
+    font-size: 1.2rem;
+}
+
+body {
+    
+    color: #61a0af;
+}
+
+section.page-section{
+    background-color:#f9b9b7;
+
+}.bg-dark {
+   
+    background-color: #f06c9b !important;
+}
+
+
+}
+.btn-light{
+    background-color:#f06c9b;
+    border: 2px solid #e93071;
+    color: #96c9dc;
+}
+
+.btn-light:hover{
+    background-color:#96c9dc;
+    border: 2px solid #33b0dd;
+    color: #f06c9b;
+}
+.btn-light {
+    --bs-btn-bg: #96c9dc;
+    --bs-btn-border-color: #33b0dd;
+    --bs-btn-hover-color: #f06c9b;
+}
+.mb-4 {
+    color: #96c9dc;
+}
+
+.btn{
+    background-color:#f06c9b;
+    border: 2px solid #e93071;
+    color: #96c9dc;
+}
+
+.btn:hover{
+    background-color:#96c9dc;
+    border: 2px solid #33b0dd;
+    color: #f06c9b;
+}
+.btn {
+    --bs-btn-bg: #96c9dc;
+    --bs-btn-border-color: #33b0dd;
+    --bs-btn-hover-color: #f06c9b;
+}
+.mb-4 {
+    color: #96c9dc;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    color: #e93071;
+}
+
+.bg-light {
+    background-color: #96c9dc!important;
+}
+/********************/
+/******* NAVBAR ******/
+/********************/
+
+.navbar-brand{
+    color:#e93071; 
+    text-shadow: 2px 2px 2px white; 
+}
+
+#mainNav.navbar-shrink {
+    background-color:#f5d491 ;
+    text-shadow: 2px 2px 2px #0e5068; 
+}
+
+#mainNav .navbar-brand {
+    color: #61a0af;
+
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    color:#96c9dc;
+    text-shadow: 2px 2px 2px #0e5068; 
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: "Roboto", sans-serif;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #61a0af;
+    text-shadow: 2px 2px 2px #0e5068; 
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+    color: #61a0af;
+    text-shadow: 2px 2px 2px #0e5068; 
+    font-weight:1500;
+}
+
+#mainNav.navbar-shrink .navbar-brand:hover {
+    color: #f06c9b;
+    text-shadow: 2px 2px 2px white; 
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #f06c9b !important;
+    text-shadow: 2px 2px 2px white; 
+}
+
+#mainNav .navbar-brand {
+    color:#61a0af;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 1.25rem;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #f06c9b;
+    text-shadow: 2px 2px 2px white;
+}
+
+#mainNav .navbar-brand:hover {
+    color: #f06c9b;
+    text-shadow: 2px 2px 2px white; 
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #f06c9b;
+    text-shadow: 2px 2px 2px white;
+}
+
+.navbar-toggler-right{
+    color: #33b0dd;
+}
+
+.navbar-toggler-right.collapsed{
+    color: #33b0dd;
+}
+
+.navbar-toggler{
+    color: #33b0dd;
+}
+.navbar-toggler {
+    
+    color: #33b0dd;
+
+}
+
+.navbar-toggler {
+   
+    color:  #33b0dd;
+    background-color:  #33b0dd;
+}
+/********************/
+/******* SLIDER ******/
+/********************/
+
+.carousel-control-next-icon {
+    color:#e93071;26
+}
